@@ -1,0 +1,242 @@
+@font-face {
+	font-family: vazir;
+	src: url(../fonts/Vazir-Thin.woff2);
+}
+*{
+	box-sizing: border-box;
+	font-family: vazir;
+}
+html{
+	direction: ltr;
+}
+body{
+	    background-image: url(images/background.jpg);
+	    background-repeat: no-repeat;
+  		background-size: auto;
+  		background-size: 100% 115%;
+}
+.chess{
+	/*align-items: center;
+	margin: auto;
+	width: 50%;*/
+}
+#nav{
+	direction: rtl;
+	float: right;
+	/*border-left: 6px solid green;*/
+    height: 500px;
+    /*//background-color: green;*/
+    background-color: #e3f2fd;"
+	/*margin-top: ;*/
+}
+li{
+	/*margin-bottom: 30px;*/
+}
+#login{
+	width: 70px;
+	background-color: gray;
+	border: 1px solid darkgray;
+}
+#signup{
+	width: 70px;
+	background-color: green;
+	border: 1px solid darkgreen;
+}
+#btn{
+	width: 100px;
+	height: 50px;
+	border-radius: 15px;
+	margin-top: -300px;
+	margin-right: 650px;
+	float: right;
+	background: #48ff50;
+	color: white;
+	border: #48ff50;
+	
+}
+btn.hover{
+	
+}
+/*.text-bg-dark{
+	color: #FFFFFF;
+	background-color: green;
+}*/
+table{
+	margin-top: 25px;
+	margin-left: 50px;
+	border-collapse: collapse;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #48ff50;
+	align-items: center;
+}
+td {
+    width: 40px; height: 40px;
+   
+}
+.soldier{
+	background-image: url(images/character/black/soldier.png);
+	background-size: 65px 65px;
+}
+.soldier:hover{
+	cursor: pointer;
+}
+.soldier2{
+	background-image: url(images/character/white/soldier.png);
+	background-size: 65px 65px;
+}
+.soldier2:hover{
+	cursor: pointer;
+}
+.castle{
+	background-image: url(images/character/black/castle.png);
+	background-size: 65px 65px;
+}
+.castle:hover{
+	cursor: pointer;
+}
+.elephant{
+	background-image: url(images/character/black/elephant.png);
+	background-size: 65px 65px;
+}
+.elephant:hover{
+	cursor: pointer;
+}
+.horse{
+	background-image: url(images/character/black/horse.png);
+	background-size: 65px 65px;
+}
+.horse:hover{
+	cursor: pointer;
+}
+.king{
+	background-image: url(images/character/black/king.png);
+	background-size: 65px 65px;
+}
+.king:hover{
+	cursor: pointer;
+}
+.minister{
+	background-image: url(images/character/black/minister.png);
+	background-size: 65px 65px;
+}
+.minister:hover{
+	cursor: pointer;
+}
+.castle2{
+	background-image: url(images/character/white/castle.png);
+	background-size: 65px 65px;
+}
+.castle2:hover{
+	cursor: pointer;
+}
+.elephant2{
+	background-image: url(images/character/white/elephant.png);
+	background-size: 65px 65px;
+}
+.elephant2:hover{
+	cursor: pointer;
+}
+.horse2{
+	background-image: url(images/character/white/horse.png);
+	background-size: 65px 65px;
+}
+.horse2:hover{
+	cursor: pointer;
+}
+.king2{
+	background-image: url(images/character/white/king.png);
+	background-size: 65px 65px;
+}
+.king2:hover{
+	cursor: pointer;
+}
+.minister2{
+	background-image: url(images/character/white/minister.png);
+	background-size: 65px 65px;
+}
+.minister2:hover{
+	cursor: pointer;
+}
+#rotat{
+	width: 50px;
+	height: 50px;
+	margin-top: -280px;
+	margin-right: 700px;
+	float: right;
+	cursor: pointer;
+}
+/*.chess-2
+{
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
+.ends
+{
+	float: left;
+	background-color: white;
+	display: inline-block;
+	align-items: center;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	border-radius: 30px;
+}
+.minister-end
+{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	background-image: url(images/character/white/minister.png);
+	background-size: 100px 100px;
+}
+.castle-end
+{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	background-image: url(images/character/white/castle.png);
+	background-size: 100px 100px;
+}
+.elephant-end
+{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	background-image: url(images/character/white/elephant.png);
+	background-size: 100px 100px;
+}
+.horse-end
+{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	background-image: url(images/character/white/horse.png);
+	background-size: 100px 100px;
+}
+
+
+.chess{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.table{
+	display: inline-block;
+}*/
+
+
+@media (max-width: 600px)
+{
+    
+       body{
+	        background-image:none;
+	        background-color: red;
+        }
+        header{
+        	display: none;
+        }
+    
+}

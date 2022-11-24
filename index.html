@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/script.js"></script>
+	<title>شطرنج آنلاین</title>
+</head>
+<body> 
+	<div class="chess">
+		<header class="p-3 text-bg-dark">
+		    <div class="container">
+		      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+		        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+		          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+		        </a>
+		        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+		          <li><a href="#" class="nav-link px-2 text-white">تماس باما</a></li>
+		          <li><a href="#" class="nav-link px-2 text-white">درباره ما</a></li>
+		          <li><a href="#" class="nav-link px-2 text-white">فروشگاه</a></li>
+		          <li><a href="#" class="nav-link px-2 text-white">بازی ها</a></li>
+		          <li><a href="#" class="nav-link px-2 text-black">خانه</a></li>
+		        </ul>
+
+	        	<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+		          <input type="search" class="form-control form-control-dark text-bg-warning" placeholder="دنبال چی میگردی؟" aria-label="Search">
+		        </form>
+		        <div class="text-end">
+		          <button type="button" class="btn btn-outline-light me-2">ورود</button>
+		          <button type="button" class="btn btn-light">ثبت نام</button>
+		        </div>
+		      </div>
+		    </div>
+	  	</header>
+		  	<div class="table">
+				<table>
+					<tr> 
+						<td bgcolor="#48ff50" id="8" class="castle2" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   id="16" class="horse2" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="24" class="elephant2" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"	  id="32" class="minister2" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="40" class="king2" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   id="48" class="elephant2" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="56" class="horse2" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   id="64" class="castle2" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr>
+						<td bgcolor="white"   class="soldier2" data-help="y" id="7" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier2" data-help="y" id="15" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier2" data-help="y" id="23" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier2" data-help="y" id="31" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier2" data-help="y" id="39" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier2" data-help="y" id="47" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier2" data-help="y" id="55" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier2" data-help="y" id="63" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr> 
+						<td bgcolor="#48ff50" class="none"  id="6" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="14" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="22" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="30" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="38" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="46" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="54" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="62" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr>
+						<td bgcolor="white"   class="none"  id="5" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="13" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="21" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="29" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="37" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="45" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="53" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="61" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr> 
+						<td bgcolor="#48ff50" class="none"  id="4" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="12" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="20" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="28" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="36" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="44" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="52" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="60" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr>
+						<td bgcolor="white"   class="none"  id="3" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="11" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="19" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="27" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="35" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="43" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="none" id="51" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="none" id="59" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr> 
+						<td bgcolor="#48ff50" class="soldier"  data-help="y"id="2" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier"  data-help="y"id="10" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier"  data-help="y"id="18" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier"  data-help="y"id="26" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier"  data-help="y"id="34" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier"  data-help="y"id="42" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" class="soldier"  data-help="y"id="50" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   class="soldier"  data-help="y"id="58" data-check="none" data-kish="none"></td>
+					</tr>
+					<tr>
+						<td bgcolor="white"   id="1" class="castle" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="9" class="horse" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"	  id="17" class="elephant" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="25" class="minister" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"   id="33" class="king" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="41" class="elephant" data-check="none" data-kish="none"></td>
+						<td bgcolor="white"	  id="49" class="horse" data-check="none" data-kish="none"></td>
+						<td bgcolor="#48ff50" id="57" class="castle" data-check="none" data-kish="none"></td>
+					</tr>
+				</table>
+				<!-- <button id="btn" >
+					شروع بازی
+				</button>	 -->
+				<img id="rotat" src="css/images/icon/rotating.png">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
